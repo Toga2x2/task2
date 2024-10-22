@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food, LLC</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        .navbar {
+            background-color: #f6b319;
+            border-radius: 0;
+            border: 0;
+        }
+
+        .navbar-brand {
+            font-size: 2em;
+            color: #b61010 !important;
+            padding: 10px 15px;
+        }
+
+        .navbar-toggle {
+            border: 1px solid #ffffff;
+        }
+
+        .navbar-toggle .icon-bar {
+            background-color: rgba(120, 33, 82, 0.87);
+        }
+
+        #collapsable-nav {
+            background-color: #e6e6e6;
+        }
+
+        #nav-list {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        #nav-list a {
+            color: #333;
+            text-align: center;
+        }
+
+        #nav-list a:hover {
+            background-color: #a84242;
+        }
+
+        .menu-header {
+            margin-bottom: 30px;
+        }
+
+        .content-section {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 30px;
+            height: 1000px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 767px) {
+            .navbar-brand {
+                padding-left: 15px;
+            }
+
+            #collapsable-nav {
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-brand">Food, LLC</div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div id="collapsable-nav" class="collapse navbar-collapse visible-xs">
+                <ul id="nav-list" class="nav navbar-nav navbar-right">
+                    <li><a href="#chicken">Chicken</a></li>
+                    <li><a href="#beef">Beef</a></li>
+                    <li><a href="#sushi">Sushi</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <h1 class="text-center menu-header">Our Menu</h1>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="content-section">
+                <p class="section-title text-center">Chicken</p>
+                <p>Welcome to Le Showrma
+                    Discover the Art of Culinary Delight
+                    At Le Showrma, we elevate every meal into an unforgettable culinary experience. Our team of talented chefs uses only the freshest, highest-quality ingredients to craft dishes that will captivate the palate of even the most discerning food lovers.
+
+                    A Menu Made with Love
+                    Our menu combines the best of traditional and modern cuisine. We offer a wide selection of exquisite dishes, carefully prepared with attention to detail and unique flavor combinations. Every plate tells a story through taste and aroma.
+
+                    A Cozy Atmosphere for Special Moments
+                    At Le Showrma, we've created a welcoming space where you can relax and enjoy your meal in a warm, inviting environment. Whether it's a romantic dinner, a family gathering, or a business lunch, you'll find the perfect setting here.
+
+                    Exquisite Drinks
+                    In addition to our mouth-watering menu, we offer an extensive wine list and exclusive cocktails, thoughtfully paired to complement each dish.
+
+                    Reserve Your Table Today!
+                    Treat yourself to an unforgettable dining experience at Le Showrma. We’re open daily from [opening time] to [closing time], and look forward to welcoming you.</p>
+                <!-- Добавьте больше текста, чтобы создать прокрутку -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
